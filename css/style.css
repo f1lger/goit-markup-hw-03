@@ -25,6 +25,7 @@ h3 {
   letter-spacing: 0.02em;
 }
 .header-cont {
+  display: flex;
 }
 .header {
   display: flex;
