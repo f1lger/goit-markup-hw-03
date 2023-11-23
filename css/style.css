@@ -32,7 +32,7 @@ h3 {
 }
 .container {
   width: 1158px;
-  margin: 0 auto; 
+  margin: 0 auto;
   padding: 0 15px;
 }
 .nav-cont {
@@ -48,10 +48,10 @@ h3 {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 .logo span {
   color: #2e2f42;
-  margin-right: 76px;
 }
 .nav-list {
   display: inline-flex;
