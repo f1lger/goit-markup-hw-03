@@ -148,6 +148,10 @@ h3 {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+.list-about {
+  display: flex;
+  gap: 24px;
+}
 .list-two-item {
   width: calc((100% - 72px) / 4);
 }
