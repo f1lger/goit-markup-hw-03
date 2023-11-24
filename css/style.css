@@ -147,6 +147,8 @@ h3 {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+  outline: 0;
+  outline-offset: 0;
 }
 .list-about {
   display: flex;
