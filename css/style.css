@@ -24,6 +24,9 @@ h3 {
   line-height: 24px;
   letter-spacing: 0.02em;
 }
+
+/* HEADER */
+
 .header {
   border-bottom: 1px solid #e7e9fc;
 }
@@ -59,9 +62,11 @@ h3 {
   gap: 40px;
   padding: 0 15px;
 }
+
 .list-link {
+  display: block;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 500; 
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
@@ -76,6 +81,7 @@ h3 {
 }
 .contacts {
   font-style: normal;
+  justify-content: flex-end;
 }
 .contacts-list {
   display: flex;
@@ -83,11 +89,13 @@ h3 {
   gap: 40px;
 }
 .contacts-link {
+  display: block;
   font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  padding: 24px 0;
 }
 .contacts-link:hover {
   color: #404bbf;
@@ -95,6 +103,11 @@ h3 {
 .contacts-link:focus {
   color: #404bbf;
 }
+
+/* MAIN */
+
+/* SECTION 1 */
+
 .dark-bg {
   background-color: #2e2f42;
   text-align: center;
@@ -130,6 +143,9 @@ h3 {
 .button:focus {
   background-color: #404bbf;
 }
+
+/* SECTION 2 */
+
 .section-two {
   padding: 120px 0;
 }
@@ -170,6 +186,9 @@ h3 {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
+/* SECTION 3 */
+
 .team-cont {
   background-color: #f4f4fd;
   padding: 120px 0;
@@ -204,7 +223,6 @@ h3 {
   align-items: center;
   margin-bottom: 8px;
 }
-
 .position {
   font-size: 16px;
   line-height: 1.5;
@@ -212,6 +230,9 @@ h3 {
   color: #434455;
   align-items: center;
 }
+
+/* SECTION 4 */
+
 .section-four {
   padding: 120px 0;
 }
@@ -234,6 +255,9 @@ h3 {
   border-top: none;
   margin-bottom: 8px;
 }
+
+/* FOOTER */
+
 .footer {
   background-color: #2e2f42;
   padding: 100px 0;
