@@ -68,7 +68,7 @@ h3 {
   text-decoration: none;
   display: block;
   font-size: 16px;
-  font-weight: 500; 
+  font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
@@ -112,14 +112,14 @@ h3 {
 
 .dark-bg {
   background-color: #2e2f42;
-  text-align: center;
   padding: 188px 0;
 }
 .container .section-one-cont {
-  display: inline-flex;
+  display: flex;
+  justify-content: center;
 }
 .sec-title {
-  align-content: center;
+  margin: 0.83em auto;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
@@ -129,6 +129,7 @@ h3 {
   max-width: 496px;
 }
 .button {
+  margin: 0 auto;
   display: block;
   min-width: 169px;
   height: 56px;
@@ -156,7 +157,6 @@ h3 {
   padding: 120px 0;
 }
 .section-two h2 {
-  
 }
 .visually-hidden {
   position: absolute;
